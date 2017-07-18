@@ -1,5 +1,5 @@
 import socket
-
+#this is server.pys
 s = socket.socket()
 host = socket.gethostname()
 port = 12345
