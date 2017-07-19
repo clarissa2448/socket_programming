@@ -1,5 +1,6 @@
 #this is client.py
 import socket
+import lifxlan
 #ignore functions for now
 def sending(message):
     print s.send(message)
@@ -12,5 +13,6 @@ host = socket.gethostname()
 port = 12345
 
 s.connect((host,port))
-print s.recv("hi")
+print (s.recv(12))
+s.send("123")
 s.close()
