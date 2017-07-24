@@ -1,7 +1,5 @@
 import socket
 #this is server.py
-#def send(message):
-	#c.send(message)
 import lifxlan
 
 s = socket.socket()

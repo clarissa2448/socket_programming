@@ -2,11 +2,6 @@
 import socket
 import lifxlan
 #ignore functions for now
-def sending(message):
-    print s.send(message)
-
-def receiving(message):
-    print s.recv(message)
 
 s = socket.socket()
 host = socket.gethostname()
